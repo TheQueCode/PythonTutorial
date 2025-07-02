@@ -64,3 +64,24 @@ if is_online:
 	print('Is online')
 else:
 	print('Is offline')
+
+
+# Typecasting = converting variable from one data type to another
+
+name = 'Que Code'
+age = 50
+gpa = 3.8
+is_student = True
+
+print(type(name)) # <class 'str'>
+print(type(age)) # <class 'int'>
+print(type(gpa)) # <class 'float>
+print(type(is_student)) # <class 'bool'>
+
+gpa = int(gpa)
+print(type(gpa)) # <class 'int'>
+print(gpa) # 3
+
+age = float(age)
+print(type(age)) # <class 'float>
+print(age) # 50.0
