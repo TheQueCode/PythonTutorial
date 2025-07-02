@@ -85,3 +85,15 @@ print(gpa) # 3
 age = float(age)
 print(type(age)) # <class 'float>
 print(age) # 50.0
+
+print(name, age)
+
+# Lists
+
+names: list = ['Que', 'Henry', 'Chris'] #mutable
+coordinates: tuple = (1.5, 2.3) #immutable - once set,can't change
+unique: set = {1, 4, 2, 9} #lists that cannot have duplicates
+data: dict = {'name': 'Que', 'age': 50} #key, value pairs
+
+print('*' * 10)
+
