@@ -96,9 +96,3 @@ unique: set = {1, 4, 2, 9}  # lists that cannot have duplicates
 data: dict = {'name': 'Que', 'age': 50}  # key, value pairs
 
 print('*' * 10)
-
-# PEP 8 Formatting Python Code
-
-x = 1
-y = 2
-unit_price = 3
