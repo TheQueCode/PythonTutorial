@@ -29,6 +29,9 @@ print('Apples' in fruits_set)  # True
 # Add to set
 fruits_set.add('Grapes')
 
+# Add duplicate
+fruits_set.add('Grapes')  # doesn't error it just doesn't add it
+
 # Remove from set
 fruits_set.remove('Grapes')
 
@@ -36,6 +39,6 @@ fruits_set.remove('Grapes')
 fruits_set.clear()  # set()
 
 # Delete
-del fruits_set  # not defined
+# del fruits_set  # not defined
 
 print(fruits_set)
