@@ -1,3 +1,4 @@
+'''
 # Core Data Types: Int, Float, String, Bool
 
 # Int - any whole number without a decimal
@@ -61,5 +62,14 @@ result = x % y
 # Order of operation - BEDMAS - Brackets, Exponents, Division, Multiplication, Addition, Subtraction
 print(result)
 
-num = input('Number: ')
-print(int(num)-5)
+# num = input('Number: ')
+# print(int(num)-5)
+'''
+# String Methods
+
+hello = 'hello'.upper()  # HELLO
+hello = 'heLLO'.lower()  # hello
+hello = 'heLLO'.capitalize()  # Hello
+hello = 'hello'.count('l')  # 2
+
+print(hello)
