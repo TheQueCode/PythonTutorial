@@ -64,7 +64,7 @@ print(result)
 
 # num = input('Number: ')
 # print(int(num)-5)
-'''
+
 # String Methods
 
 hello = 'hello'.upper()  # HELLO
@@ -73,3 +73,5 @@ hello = 'heLLO'.capitalize()  # Hello
 hello = 'hello'.count('l')  # 2
 
 print(hello)
+'''
+# Conditional Operators
