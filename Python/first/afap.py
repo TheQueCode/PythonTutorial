@@ -112,3 +112,13 @@ print(not False)  # True
 print(not (False or True))  # False
 '''
 # If/Else/Elif
+x = input('Name: ')
+
+if x == 'Tim':
+    print('You are great')
+elif x == 'Que':
+    print('You are Betta')
+else:
+    print('Who the hell are you?')
+
+print('Always do this')
