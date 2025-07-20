@@ -78,7 +78,7 @@ y = 3
 z = 'yes'
 print(x * y)  # hellohellohello
 print(x + y) # helloyes
-'''
+
 # Conditional Operators
 
 x = 'hello'
@@ -93,3 +93,22 @@ print(ord('b'))  # b = 98
 
 print(7.5 > 7)  # True
 print(7.0 == 7)  # True
+
+# Chained Conditionals - not, and, or
+
+x = 7
+y = 8
+z = 0
+
+result1 = x == y
+result2 = y > x
+result3 = z < x + 2
+
+result4 = result1 or result2 or result3
+print(result4)
+
+print(not True)  # False
+print(not False)  # True
+print(not (False or True))  # False
+'''
+# If/Else/Elif
