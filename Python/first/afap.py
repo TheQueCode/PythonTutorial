@@ -73,5 +73,23 @@ hello = 'heLLO'.capitalize()  # Hello
 hello = 'hello'.count('l')  # 2
 
 print(hello)
+x = 'hello'
+y = 3
+z = 'yes'
+print(x * y)  # hellohellohello
+print(x + y) # helloyes
 '''
 # Conditional Operators
+
+x = 'hello'
+y = 'hello'
+
+print(x == y)  # True
+
+print('a' > 'Z')  # True
+print(ord('a'))  # ord = ordinal a = 97
+print(ord('Z'))  # Z = 90
+print(ord('b'))  # b = 98
+
+print(7.5 > 7)  # True
+print(7.0 == 7)  # True
