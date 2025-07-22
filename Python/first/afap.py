@@ -110,7 +110,7 @@ print(result4)
 print(not True)  # False
 print(not False)  # True
 print(not (False or True))  # False
-'''
+
 # If/Else/Elif
 x = input('Name: ')
 
@@ -122,3 +122,12 @@ else:
     print('Who the hell are you?')
 
 print('Always do this')
+'''
+# Collections - list and tuples
+
+x = [4, True, 'hello']  # list
+x[0] = 'hello'
+x.append('hi')
+print(x.pop(0))
+print(x)  # 3 - len = length
+print(x[1])
