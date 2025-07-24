@@ -122,7 +122,7 @@ else:
     print('Who the hell are you?')
 
 print('Always do this')
-'''
+
 # Collections - list and tuples
 
 x = [4, True, 'hello']  # list
@@ -131,3 +131,40 @@ x.append('hi')
 print(x.pop(0))
 print(x)  # 3 - len = length
 print(x[1])
+
+square_nums = []
+for num in range(1, 22):
+    square = num**2
+    square_nums.append(square)
+
+print(square_nums)
+
+# Looping through slices
+
+fruits = ['dragon fruit', 'jackfruit',
+          'strawberry', 'banana', 'peach', 'guava']
+
+for fruit in fruits[:5]:
+    print(f'The {fruit.title()} is ripe for the taking.')
+    print(f'I will start picking {fruit.title()} next Monday.')
+
+# Copying Lists
+books = ['great expectations', 'god of flies', 'tempest',
+         'middle march', 'bleak house', 'hard times']
+
+favorite_books = books[:]
+
+print('These are the books I have in my library:')
+print(books)
+
+print('These are my favorite books:')
+print(favorite_books)
+'''
+# Python Conditionals
+bikes = ('toyota', 'bmw', 'suzuki', 'yamaha', 'harley davidson', 'honda')
+
+for bike in bikes:
+    if bike == 'bmw':
+        print(bike.upper())
+    else:
+        print(bike.title())
